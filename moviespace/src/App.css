@@ -229,3 +229,46 @@ h1 {
     margin: 1rem;
   }
 }
+
+/* ...existing CSS code... */
+
+.search {
+  /* ...existing styles... */
+  position: relative;
+}
+
+.search input {
+  /* ...existing styles... */
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.suggestions {
+  top: 100%;
+  left: 0;
+  width: 68%;
+  margin-top: 0px;
+  padding: 0;
+  list-style: none;
+  background-color: #eae6e31a;
+  border: 1px solid #212426;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.suggestions li {
+  padding: 8px 12px;
+  cursor: pointer;
+  font-family: var(--font-raleway);
+  font-size: 1rem;
+  font-weight: 600;
+  color: #999999;
+}
+
+.suggestions li:hover {
+  background-color: #dcbca1;
+}
+
+/* ...remaining CSS code... */
+
